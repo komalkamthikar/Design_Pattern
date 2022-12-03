@@ -1,4 +1,4 @@
-package com.prototype.module;
+package com.creationalPattern.prototype.module;
 
 public abstract class Shape implements Cloneable {
     private String id;

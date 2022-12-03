@@ -1,7 +1,7 @@
-package com.factory.app;
+package com.creationalPattern.factory1.app;
 
-import com.factory.Factory.ShapeStore;
-import com.factory.module.Shape;
+import com.creationalPattern.factory1.Factory.ShapeStore;
+import com.creationalPattern.factory1.module.Shape;
 
 
 public class FactoryPattern {

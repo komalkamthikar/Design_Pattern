@@ -1,7 +1,7 @@
-package com.prototype.app;
+package com.creationalPattern.prototype.app;
 
-import com.prototype.Prototype.ShapeCache;
-import com.prototype.module.*;
+import com.creationalPattern.prototype.Prototype.ShapeCache;
+import com.creationalPattern.prototype.module.Shape;
 
 public class PrototypePattern {
 

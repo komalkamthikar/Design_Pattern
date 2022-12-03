@@ -1,13 +1,16 @@
-package com.prototype.Prototype;
+package com.creationalPattern.prototype.Prototype;
 
 import java.util.Hashtable;
 
-import com.prototype.module.*;
+import com.creationalPattern.prototype.module.Circle;
+import com.creationalPattern.prototype.module.Rectangle;
+import com.creationalPattern.prototype.module.Shape;
+import com.creationalPattern.prototype.module.Square;
 
 
 public class ShapeCache {
 
-    private static Hashtable<String,Shape> shapeMap= new Hashtable<String,Shape>();
+    private static Hashtable<String, Shape> shapeMap= new Hashtable<String,Shape>();
 
     public static Shape getShape(String shapeId) {
         Shape cachedShape =shapeMap.get(shapeId);

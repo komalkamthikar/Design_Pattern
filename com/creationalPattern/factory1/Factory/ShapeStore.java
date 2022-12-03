@@ -1,8 +1,8 @@
-package com.factory.Factory;
+package com.creationalPattern.factory1.Factory;
 
-import com.factory.module.Circle;
-import com.factory.module.Rectangle;
-import com.factory.module.Shape;
+import com.creationalPattern.factory1.module.Circle;
+import com.creationalPattern.factory1.module.Rectangle;
+import com.creationalPattern.factory1.module.Shape;
 
 public class ShapeStore {
     public Shape getShape(String shapeType) {

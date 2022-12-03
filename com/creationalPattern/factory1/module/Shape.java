@@ -1,4 +1,4 @@
-package com.factory.module;
+package com.creationalPattern.factory1.module;
 
 public interface Shape {
 

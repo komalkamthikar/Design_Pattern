@@ -1,6 +1,6 @@
-package com.singleton.app;
+package com.creationalPattern.singleton.app;
 
-import com.singleton.module.Singleton;
+import com.creationalPattern.singleton.module.Singleton;
 
 public class SingletonPattern {
 

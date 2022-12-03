@@ -1,4 +1,4 @@
-package com.prototype.module;
+package com.creationalPattern.prototype.module;
 
 public class Rectangle extends Shape {
 
